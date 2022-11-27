@@ -14,9 +14,9 @@ function App() {
   let sections = [skillsSection, bigProjects, educationInfo, workExperience, achievementSection, socialMediaLinks]
 
   return (
-    <div className="bg-violet-300 h-screen">
+    <div className='font-montserrat'>
       <Navbar />
-      <div className="px-8">
+      <div className="px-10">
         <AboutMe />
         <Skills />
       </div>

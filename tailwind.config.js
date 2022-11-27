@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'augustina': ['Agustina', 'sans-serif'],
+      'montserrat': ['Montserrat', 'sans-serif'],
     },
   },
   plugins: [],
