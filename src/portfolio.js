@@ -66,18 +66,20 @@ const educationInfo = {
   sectionTitle: "Education",
   education: [
     {
-      school: "Wichita State University",
-      logo: "",
-      degree: "Bachelor of Science in Biomedical Engineering",
-      duration: "August 2015 - May 2019",
-      description: ""
-    },
-    {
       school: "The Grace Hopper Program at Fullstack Academy",
-      logo: "",
+      logo: "gh.png",
+      logoAlt: "Grace Hopper Program Logo",
       degree: "Certificate in Fullstack Web Development",
       duration: "March 2022 - July 2022",
       description: "A 17-week immersive software engineering program based in New York City, centered on fullstack JavaScript development, including Node.js, Express, Sequelize ORM for PostgreSQL databases, React and Redux; along with HTML, CSS, and CS fundamentals."
+    },
+    {
+      school: "Wichita State University",
+      logo: "wsu.png",
+      logoAlt: "Wichita State University Logo",
+      degree: "Bachelor of Science in Biomedical Engineering",
+      duration: "August 2015 - May 2019",
+      description: ""
     }
   ]
 }
