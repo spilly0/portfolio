@@ -2,6 +2,7 @@ import AboutMe from './containers/aboutMe/AboutMe';
 import Navbar from './containers/navbar/Navbar'
 import Skills from './containers/skills/Skills';
 import Education from './containers/education/Education'
+import Experience from './containers/experience/Experience'
 import {
   socialMediaLinks,
   skillsSection,
@@ -22,6 +23,7 @@ function App() {
           <AboutMe />
           <Skills />
           <Education />
+          <Experience />
         </div>
       </div>
     </div >

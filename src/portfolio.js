@@ -89,10 +89,38 @@ const workExperience = {
   sectionTitle: "Experience",
   experience: [
     {
+      role: "Mentor",
+      company: "Fullstack Academy",
+      logo: "fa.png",
+      alt: "Fullstack Logo",
+      backgroundColor: '#ed1f24',
+      date: "November 2022 - Present",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descriptionBullets: [
+        "hilkasjlkf askfm mei",
+        "sdkjf xoel"
+      ]
+    },
+    {
+      role: "Lead Mechanical Design Engineer",
+      company: "MSB USA",
+      logo: "msb.jpeg",
+      alt: "MSB Logo",
+      backgroundColor: '#038fce',
+      date: "August 2021 - March 2022",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descriptionBullets: [
+        "hilkasjlkf askfm mei",
+        "sdkjf xoel"
+      ]
+    },
+    {
       role: "Mechanical Design Engineer",
       company: "MSB USA",
-      logo: "",
-      date: "August 2021 - March 2022",
+      logo: "msb.jpeg",
+      alt: "MSB Logo",
+      backgroundColor: '#038fce',
+      date: "June 2019 - March 2021",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descriptionBullets: [
         "hilkasjlkf askfm mei",

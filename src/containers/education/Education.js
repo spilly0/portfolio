@@ -5,7 +5,7 @@ import {
 function Education() {
   let educationList = educationInfo.education;
   return (
-    <div name={educationInfo.sectionTitle} className="w-full dark:text-white">
+    <div name={educationInfo.sectionTitle} className="w-full dark:text-white py-5">
       <div>
         <h1 className="text-[56px] pb-4">Education</h1>
       </div>
@@ -15,7 +15,7 @@ function Education() {
             <img className='w-[100px] min-w-[100px]' src={education.logo} alt={education.logoAlt} />
           </div>
           <div className='text-center sm:text-left'>
-            <h5 className="text-[28px] font-bold">{education.school}</h5>
+            <h5 className="text-[28px]">{education.school}</h5>
             <div>
               <h5>{education.degree}</h5>
               <p>{education.duration}</p>
