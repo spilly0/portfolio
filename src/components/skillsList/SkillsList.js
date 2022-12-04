@@ -44,7 +44,7 @@ function SkillsList() {
         return (
           <p
             key={i}
-            className='block py-2 text-subtitle text-[20px]'
+            className='flex py-2 text-subtitle text-[20px]'
           >
             {bullet}
           </p>

@@ -3,7 +3,7 @@ import { socialMediaLinks } from '../../portfolio'
 
 function ContactMe() {
   return (
-    <div name={socialMediaLinks.sectionTitle} className="w-full dark:text-white py-5">
+    <div name={socialMediaLinks.sectionTitle} className="w-full dark:text-white py-8">
       <h1 className="text-[40px] pb-4">Reach Out to me!</h1>
       <div className="w-full flex flex-wrap-reverse">
         <div className="w-full flex md:w-2/3">
