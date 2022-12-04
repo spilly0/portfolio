@@ -12,7 +12,7 @@ const introduction = {
   display: true,
   name: "Sarah Perrone",
   firstName: "Sarah",
-  subTitle:
+  subtitle:
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
 }
 
@@ -135,7 +135,32 @@ const bigProjects = {
   sectionTitle: "Projects",
   projectsList: [
     {
-      title: "bookbound"
+      title: "Bookbound",
+      media: "bookbound.png",
+      alt: "Bookbound Image",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      buttons: [
+        {
+          title: "Demo",
+          link: "https://www.youtube.com/watch?v=7trYUsyBrX0"
+        },
+        {
+          title: "Github",
+          link: "https://github.com/team-sweet-potato/bookbound"
+        }
+      ]
+    },
+    {
+      title: "Story Time",
+      media: "storytime.png",
+      alt: "Story Time Image",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      buttons: [
+        {
+          title: "Github",
+          link: "https://github.com/grace-shopper-team-butterfly/story-time"
+        }
+      ]
     }
   ]
 }

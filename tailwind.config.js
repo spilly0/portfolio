@@ -27,12 +27,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        'subTitle': '#868e96',
+        'subtitle': '#868e96',
         'textHover': '#8c43ce',
         'white': '#fff',
         'background': '#171c28',
         'msbBG': '#038fce',
-        'faBG': '#ed1f24'
+        'faBG': '#ed1f24',
+        'purple': '#55198b'
       }
     }
   },

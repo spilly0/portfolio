@@ -12,8 +12,8 @@ function SkillsList() {
             key={skill.skillName}
             className="inline-block mx-[20px] group"
           >
-            <i className={`${skill.icon} text-subTitle group-hover:text-textHover`}></i>
-            <p className="text-xs dark:text-subTitle group-hover:text-textHover">{skill.skillName}</p>
+            <i className={`${skill.icon} text-subtitle group-hover:text-textHover`}></i>
+            <p className="text-xs dark:text-subtitle group-hover:text-textHover">{skill.skillName}</p>
           </li>
         ))}
       </ul>

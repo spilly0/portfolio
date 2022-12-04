@@ -25,9 +25,9 @@ function AboutMe() {
             <span className="wave-emoji">{emoji("👋")}</span>
           </h1>
           <p
-            className="text-[30px] leading-[40px] text-subTitle dark:text-white"
+            className="text-[30px] leading-[40px] text-subtitle dark:text-white"
           >
-            {introduction.subTitle}
+            {introduction.subtitle}
           </p>
         </div>
       </div>

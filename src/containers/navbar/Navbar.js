@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { render } from '@testing-library/react';
+import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import {
   socialMediaLinks,
@@ -12,8 +13,9 @@ import {
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   let sections = [skillsSection, bigProjects, educationInfo, workExperience, achievementSection, socialMediaLinks];
+
   return (
-    <nav className="fixed w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-background z-10">
+    <nav className="navbar fixed w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-background z-10">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="block items-center text-[1.5rem] dark:text-white">
           <span > &lt; </span>
@@ -33,7 +35,6 @@ function Navbar() {
         </button>
         <div className={`${toggle ? '' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
           <div className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-background md:dark:bg-background dark:border-gray-700">
-            {/* md:space-x-6 */}
             {sections.map(section => (
               section.display ?
                 <button key={section.sectionTitle} className='rounded-lg px-3 py-2 hover:bg-gray-200'>
@@ -43,7 +44,7 @@ function Navbar() {
                     className="block py-2 pr-4 pl-3 rounded md:bg-transparent text-blue-700 md:p-0 dark:text-white" aria-current="page"
                     smooth={true}
                     spy={true}
-                    offset={0}
+                    offset={-100}
                     duration={500}
                     onClick={() => setToggle(!toggle)}
                   >

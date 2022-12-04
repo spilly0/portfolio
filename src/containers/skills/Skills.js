@@ -15,7 +15,7 @@ function Skills() {
   };
   const { View } = useLottie(options);
   return (
-    <div name={`${skillsSection.sectionTitle}`} className="w-full flex flex-wrap py-10" >
+    <div name={`${skillsSection.sectionTitle}`} className="w-full flex flex-wrap py-5" >
       <div className="w-full flex justify-center items-center p-2 md:w-1/2">
         {View}
       </div>

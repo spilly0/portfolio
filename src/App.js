@@ -3,6 +3,7 @@ import Navbar from './containers/navbar/Navbar'
 import Skills from './containers/skills/Skills';
 import Education from './containers/education/Education'
 import Experience from './containers/experience/Experience'
+import Projects from './containers/projects/Projects'
 import {
   socialMediaLinks,
   skillsSection,
@@ -24,6 +25,7 @@ function App() {
           <Skills />
           <Education />
           <Experience />
+          <Projects />
         </div>
       </div>
     </div >
