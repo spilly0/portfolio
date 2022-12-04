@@ -13,7 +13,7 @@ const introduction = {
   name: "Sarah Perrone",
   firstName: "Sarah",
   subtitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
+    "A passionate Full Stack Software Developer 🚀 with experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",
 }
 
 const socialMediaLinks = {
@@ -28,7 +28,7 @@ const skillsSection = {
   display: true,
   sectionTitle: "Skills",
   title: "What I do",
-  subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  subtitle: "Passionate full stack developer who is eager to learn new tech!",
   skillsList: [
     {
       skillName: "JavaScript",
@@ -159,6 +159,18 @@ const bigProjects = {
         {
           title: "Github",
           link: "https://github.com/grace-shopper-team-butterfly/story-time"
+        }
+      ]
+    },
+    {
+      title: "Portfolio Website",
+      media: "portfolioWeb.png",
+      alt: "Portfolio Website Image",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      buttons: [
+        {
+          title: "Github",
+          link: "https://github.com/spilly0/portfolio"
         }
       ]
     }

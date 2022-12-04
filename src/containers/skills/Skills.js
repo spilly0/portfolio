@@ -22,7 +22,7 @@ function Skills() {
       <div className="w-full flex items-center md:w-1/2">
         <div>
           <h1 className="text-[56px] dark:text-white">{skillsSection.title}</h1>
-          <p className="leading-[23px] text-[19px] uppercase py-4 dark:text-white">{skillsSection.subtitle}</p>
+          <p className="leading-[23px] text-[19px] uppercase py-4 text-subtitle dark:text-white">{skillsSection.subtitle}</p>
           <SkillsList />
         </div>
       </div>

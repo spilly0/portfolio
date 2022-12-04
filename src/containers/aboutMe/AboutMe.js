@@ -13,6 +13,9 @@ function AboutMe() {
     }
   };
   const { View } = useLottie(options);
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
 
   return (
     <div className="w-full flex flex-wrap-reverse" style={{ paddingTop: "130px" }}>
@@ -31,7 +34,7 @@ function AboutMe() {
             {introduction.subtitle}
           </p>
           <SocialMedias />
-          <button type="button" className="hover:bg-white hover:text-purple hover: px-3 py-3 rounded-lg bg-purple text-white border-[1px] border-purple my-4 mx-2">SEE MY RESUME</button>
+          <button onClick={() => openInNewTab('https://drive.google.com/file/d/1zePzsmXSMywmoRAvbfZg7pl5ZXG9REl_/view?usp=sharing')} type="button" className="hover:bg-white hover:text-purple hover: px-3 py-3 rounded-lg bg-purple text-white border-[1px] border-purple my-4 mx-2">SEE MY RESUME</button>
         </div>
       </div>
       <div className="w-full flex justify-center p-2 md:w-1/2">
