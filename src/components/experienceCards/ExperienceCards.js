@@ -17,12 +17,18 @@ function ExperienceCards() {
             <div className='mt-[2rem] p-[1.5rem] text-center'>
               <h4 className='text-[25px] font-[500] pt-[1.5rem] dark:text-white'>{experience.role}</h4>
               <h5 className='text-[20px] font-[500] pt-[1rem] dark:text-white'>{experience.date}</h5>
-              <p className='text-subTitle font-[300] pt-[1.5rem]'>{experience.description}</p>
+              {experience.description.length ? <p className='text-subTitle font-[300] pt-[1.5rem]'>{experience.description}</p> : <></>}
+              <ul className='pl-[1.5rem] text-left py-2'>
+                {experience.descriptionBullets.map((bullet) => (
+                  <li className='list-disc '>{bullet}</li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-      ))}
-    </div>
+      ))
+      }
+    </div >
   )
 }
 

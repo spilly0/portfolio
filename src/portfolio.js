@@ -1,3 +1,4 @@
+import emoji from "react-easy-emoji";
 
 const splashScreen = {};
 
@@ -58,6 +59,12 @@ const skillsSection = {
       skillName: "React Native",
       icon: "fab fa-react"
     }
+  ],
+  bullets: [
+    emoji(
+      "⚡ Experience: Sequelize, Webpack, Bootstrap, Redux, Git, Babel, and Express"
+    ),
+    emoji("⚡ Some experience: Tensorflow, Python, NativeBase, and Material UI")
   ]
 }
 
@@ -95,10 +102,11 @@ const workExperience = {
       alt: "Fullstack Logo",
       backgroundColor: '#ed1f24',
       date: "November 2022 - Present",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "",
       descriptionBullets: [
-        "hilkasjlkf askfm mei",
-        "sdkjf xoel"
+        "Provide individualized student support during class sessions and outside class in a timely manner.",
+        "Help students connect content to the real world by sharing industry insights and professional experience.",
+        "Evaluate student performance and progress based on course deliverables, while providing feedback."
       ]
     },
     {
@@ -108,10 +116,11 @@ const workExperience = {
       alt: "MSB Logo",
       backgroundColor: '#038fce',
       date: "August 2021 - March 2022",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "",
       descriptionBullets: [
-        "hilkasjlkf askfm mei",
-        "sdkjf xoel"
+        "Guided 4 engineers in designing products that satisfied design standards and customer requirements.",
+        "Led meetings, prioritizing and managing team workflow, which ensured accurate designs and scheduling.",
+        "Managed client relationships to evaluate needs, delivering products that were manufacturable, cost efficient, and aligned with client needs."
       ]
     },
     {
@@ -121,10 +130,10 @@ const workExperience = {
       alt: "MSB Logo",
       backgroundColor: '#038fce',
       date: "June 2019 - March 2021",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "",
       descriptionBullets: [
-        "hilkasjlkf askfm mei",
-        "sdkjf xoel"
+        "Designed and drafted aircraft interiors using CATIA V5 and SolidWorks in accordance with design specifications, airworthiness standards, and customer requirements.",
+        "Created tools and documentation to improve processes. Such as preparing supplemental materials on the client’s PLM (Product Lifecycle Management) system to increase efficiency of the release process."
       ]
     }
   ]
@@ -138,7 +147,7 @@ const bigProjects = {
       title: "Bookbound",
       media: "bookbound.png",
       alt: "Bookbound Image",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Bookbound is a mobile book-tracking app designed by and for avid readers. Created with a focus on design and the user experience, aimed at providing a fun and easy way for users to track the books they have read, are currently reading, or want to read.",
       buttons: [
         {
           title: "Demo",
@@ -154,7 +163,7 @@ const bigProjects = {
       title: "Story Time",
       media: "storytime.png",
       alt: "Story Time Image",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "An e-commerce website for children's books, that provides a user experience for guests, authorized users, and admins.",
       buttons: [
         {
           title: "Github",
@@ -166,7 +175,7 @@ const bigProjects = {
       title: "Portfolio Website",
       media: "portfolioWeb.png",
       alt: "Portfolio Website Image",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "A portfolio webiste created to display my skills, projects, and have fun!",
       buttons: [
         {
           title: "Github",
