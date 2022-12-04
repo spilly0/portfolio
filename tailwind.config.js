@@ -33,7 +33,10 @@ module.exports = {
         'background': '#171c28',
         'msbBG': '#038fce',
         'faBG': '#ed1f24',
-        'purple': '#55198b'
+        'purple': '#55198b',
+        'linkedIn': '#0e76a8',
+        'github': '#333',
+        'gmail': '#ea4335',
       }
     }
   },

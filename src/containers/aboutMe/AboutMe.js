@@ -2,6 +2,7 @@ import { introduction } from '../../portfolio'
 import emoji from 'react-easy-emoji'
 import { useLottie } from "lottie-react";
 import womanEngine from "../../assets/animations/womanEngine.json";
+import SocialMedias from "../../components/socialMedias/SocialMedias"
 
 function AboutMe() {
   const options = {
@@ -29,6 +30,8 @@ function AboutMe() {
           >
             {introduction.subtitle}
           </p>
+          <SocialMedias />
+          <button type="button" className="hover:bg-white hover:text-purple hover: px-3 py-3 rounded-lg bg-purple text-white border-[1px] border-purple my-4 mx-2">SEE MY RESUME</button>
         </div>
       </div>
       <div className="w-full flex justify-center p-2 md:w-1/2">

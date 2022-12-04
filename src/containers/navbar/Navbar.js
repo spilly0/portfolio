@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Link } from "react-scroll";
 import {
   socialMediaLinks,
@@ -12,7 +12,7 @@ import {
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
-  let sections = [skillsSection, bigProjects, educationInfo, workExperience, achievementSection, socialMediaLinks];
+  let sections = [skillsSection, bigProjects, educationInfo, workExperience, socialMediaLinks];
 
   return (
     <nav className="navbar fixed w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-background z-10">

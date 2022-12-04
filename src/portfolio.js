@@ -21,7 +21,7 @@ const socialMediaLinks = {
   sectionTitle: "Contact Me",
   github: "https://github.com/spilly0",
   linkedIn: "https://www.linkedin.com/in/sarah-perrone/",
-  gmail: "sarahperrone96@gmail.com"
+  gmail: "mailto:sarahperrone96@gmail.com"
 }
 
 const skillsSection = {

@@ -1,4 +1,5 @@
 import AboutMe from './containers/aboutMe/AboutMe';
+import ContactMe from './containers/contactMe/ContactMe'
 import Navbar from './containers/navbar/Navbar'
 import Skills from './containers/skills/Skills';
 import Education from './containers/education/Education'
@@ -23,9 +24,10 @@ function App() {
         <div className="px-[5%]">
           <AboutMe />
           <Skills />
+          <Projects />
           <Education />
           <Experience />
-          <Projects />
+          <ContactMe />
         </div>
       </div>
     </div >

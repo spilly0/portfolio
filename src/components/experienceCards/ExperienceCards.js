@@ -5,7 +5,7 @@ function ExperienceCards() {
   return (
     <div className="flex flex-wrap justify-around">
       {experiences.map((experience, index) => (
-        <div key={index} className="relative w-1/2 lg:w-1/3 rounded-t-lg px-3 py-4  ">
+        <div key={index} className="relative w-full md:w-1/2 lg:w-1/3 rounded-t-lg px-3 py-4  ">
           <div className="relative rounded-t-lg shadow-black shadow-[0_10px_30px_-15px_rgba(0,0,0,/20%)] rounded-lg">
             <div className='flex justify-center items-center rounded-t-lg h-[11rem]' style={{ backgroundColor: experience.backgroundColor }}>
               <div className='w-full h-full rounded-t-lg' style={{ background: 'linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.2))', filter: 'blur(10px)' }}></div>
